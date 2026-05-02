@@ -1,33 +1,24 @@
-# homebrew-focusguard
+# anarzone's Homebrew tap
 
-Homebrew tap for [FocusGuard](https://github.com/anarzone/FocusGuard) — a native macOS menu-bar focus app.
+Personal tap for apps I ship. Single bucket — one tap, many casks over time.
 
-## Install
+## Apps
 
-```sh
-brew install --cask anarzone/focusguard/focusguard
-```
+### FocusGuard
 
-That's the one-liner. Equivalent to:
+[Native macOS menu-bar focus tracker.](https://github.com/anarzone/FocusGuard)
 
 ```sh
-brew tap anarzone/focusguard
-brew install --cask focusguard
+brew install --cask anarzone/tap/focusguard
 ```
 
-## Update
+Update:
 
 ```sh
-brew upgrade --cask anarzone/focusguard/focusguard
+brew upgrade --cask anarzone/tap/focusguard
 ```
 
-## Uninstall
-
-```sh
-brew uninstall --cask focusguard
-```
-
-To also remove user data (sessions, events, rules, prefs):
+Uninstall (with all user data — sessions, events, rules, prefs):
 
 ```sh
 brew uninstall --cask --zap focusguard
