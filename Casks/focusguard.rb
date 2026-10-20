@@ -1,6 +1,6 @@
 cask "focusguard" do
-  version "0.3.21"
-  sha256 "5b4ffa4c7cc7f9abe2d2cb52b5814ed6b867c01f03d7a8701f7a1e6ac66ee7c5"
+  version "0.3.22"
+  sha256 "9b810b62187a61491bff108fe20954c366b992886abc27c580358d012e601eb1"
 
   url "https://github.com/anarzone/FocusGuard/releases/download/v#{version}/FocusGuard-v#{version}.zip"
   name "FocusGuard"
